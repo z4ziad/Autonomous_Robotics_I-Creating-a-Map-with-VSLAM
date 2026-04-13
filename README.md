@@ -55,5 +55,6 @@ pose_hint:
     z: 0.0
     w: 1.0"
 ```
-Watch on Foxglove if the robot is able to localize itself on the new location in the map. 
-
+Watch on Foxglove if the robot is able to localize itself on the new location in the map.   
+* The pose_hint doesn't need to be exact, but it should be reasonably close to the robot's actual position in the map.
+* If localization is successful, cuVSLAM will load the map into memory. Otherwise, it will continue building a new map. 
