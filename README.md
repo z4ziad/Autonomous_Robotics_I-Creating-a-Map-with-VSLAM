@@ -8,7 +8,7 @@ Raise the robot on a block so its wheels are not touching the ground. Follow the
 Move the left joystick around to make sure the wheels move accordingly. 
 ## Testing Tele-Op
 Shut down the Jetson, untether the robot from the wall power and display, and restart it. Now that the OLED IP driver is installed, it should display its IP on the OLED screen. Establish a remote SSH connection to it from your laptop or desktop and start the tele_op.py script (see above). Place the robot on the ground and move it around a bit to get used to controlling it with the joystick.
-## Running VLSAM and Creating the 3D Map
+## Running VSLAM and Creating the 3D Map
 Launch VSLAM and visualize its output using Foxglove as you did in Part I of this Assignment
 Create a 3D map of the robot enclosure made for the course. See instructions on Canvas on when and where the course robotic enclosure will be available.   
 ## Saving the Map
