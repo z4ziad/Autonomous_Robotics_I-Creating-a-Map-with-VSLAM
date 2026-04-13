@@ -7,7 +7,15 @@ Follow the instructions I created on [this GitHub repo](https://github.com/z4zia
 Raise the robot on a block so its wheels are not touching the ground. Follow the instructions I created on [this GitHub repo](https://github.com/z4ziad/Jetson-TeleOp-with-Waveshare-base-robot/tree/main) to move the robot around with the Gamepad controller provided for the course. Please see the Assignment Instructions on Canvas on how to borrow a gamepad.
 Move the left joystick around to make sure the wheels move accordingly. 
 ## Testing Tele-Op
-Shut down the Jetson, untether the robot from the wall power and display, and restart it. Now that the OLED IP driver is installed, it should display its IP on the OLED screen. Establish a remote SSH connection to it from your laptop or desktop and start the tele_op.py script (see above). Place the robot on the ground and move it around a bit to get used to controlling it with the joystick.
+Shut down the Jetson, untether the robot from the wall power and display, and restart it. Now that the OLED IP driver is installed, it should display its IP on the OLED screen. Establish a remote SSH connection to it from your laptop or desktop and start the tele_op.py script (see above). Place the robot on the ground and move it around a bit to get used to controlling it with the joystick.   
+
+# Establishing Connection Vis VSCode
+Another option to connect remotely the Jetson is through VScode running on you laptop or desktop.
+* Open VScode and install remote SSH Extension.
+* Connect the Jetson IP and open directory. You can now edit and save files remotely.
+* You can also get SSH terminals to run VSLAM remotely.  
+**Note** When you connect via VSCode, a VSCode server is installed on the Jetson which can take up some memory. If you even run out of memory, you can stop VSCode and restart it the free up that memory, and rely solely on SSH connections.  
+
 ## Running VSLAM and Creating the 3D Map
 Launch VSLAM and visualize its output using Foxglove as you did in Part I of this Assignment
 Create a 3D map of the robot enclosure made for the course. See instructions on Canvas on when and where the course robotic enclosure will be available.   
