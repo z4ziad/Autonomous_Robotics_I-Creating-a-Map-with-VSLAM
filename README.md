@@ -9,7 +9,7 @@ Move the left joystick around to make sure the wheels move accordingly.
 ## Testing Tele-Op
 Shut down the Jetson, untether the robot from the wall power and display, and restart it. Now that the OLED IP driver is installed, it should display its IP on the OLED screen. Establish a remote SSH connection to it from your laptop or desktop and start the tele_op.py script (see above). Place the robot on the ground and move it around a bit to get used to controlling it with the joystick.   
 
-# Establishing Connection Vis VSCode
+### Establishing a Remote Connection with VSCode
 Another option to connect remotely the Jetson is through VScode running on you laptop or desktop.
 * Open VScode and install remote SSH Extension.
 * Connect the Jetson IP and open directory. You can now edit and save files remotely.
