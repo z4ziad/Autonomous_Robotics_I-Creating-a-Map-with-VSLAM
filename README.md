@@ -14,7 +14,7 @@ Another option to connect remotely the Jetson is through VScode running on your 
 * Open VScode and install remote SSH Extension.
 * Connect the Jetson IP and open directory. You can now edit and save files remotely.
 * You can also get SSH terminals to run VSLAM remotely.  
-**Note** When you connect via VSCode, a VSCode server is installed on the Jetson which can take up some memory. If you ever run out of memory, you can stop VSCode and restart it the free up that memory, and rely solely on SSH connections.  
+**Note** When you connect via VSCode, a VSCode server is installed on the Jetson which can take up some memory. If you ever run out of memory, you can stop VSCode and restart the Jetson to free up that memory. You can then rely solely on SSH connections.  
 
 ## Running VSLAM and Creating the 3D Map
 Launch VSLAM and visualize its output using Foxglove as you did in Part I of this Assignment
